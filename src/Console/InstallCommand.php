@@ -19,8 +19,8 @@ class InstallCommand extends Command
     public function handle(): void
     {
         // Directories...
-        (new Filesystem)->ensureDirectoryExists(public_path('css'));
-        (new Filesystem)->ensureDirectoryExists(resource_path('sass'));
+        (new Filesystem())->ensureDirectoryExists(public_path('css'));
+        (new Filesystem())->ensureDirectoryExists(resource_path('sass'));
 
         // Assets...
         copy(__DIR__.'/../../stubs/public/css/report.css', public_path('css/report.css'));
