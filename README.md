@@ -1,5 +1,10 @@
 # Laravel PDF Report
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lucasvscn/laravel-pdf-report.svg?style=flat-square)](https://packagist.org/packages/lucasvscn/laravel-pdf-report)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/lucasvscn/laravel-pdf-report/run-tests?label=tests)](https://github.com/lucasvscn/laravel-pdf-report/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/lucasvscn/laravel-pdf-report/Check%20&%20fix%20styling?label=code%20style)](https://github.com/lucasvscn/laravel-pdf-report/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/lucasvscn/laravel-pdf-report.svg?style=flat-square)](https://packagist.org/packages/lucasvscn/laravel-pdf-report)
+
 Blade components to build PDF reports using [DOMPdf](https://github.com/dompdf/dompdf).
 
 ## Install
