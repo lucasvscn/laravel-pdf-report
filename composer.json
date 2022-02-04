@@ -1,0 +1,51 @@
+{
+    "name": "lucasvscn/laravel-pdf-report",
+    "description": "Blade components to build PDF reports.",
+    "keywords": ["pdf", "laravel", "reports"],
+    "homepage": "https://github.com/lucasvscn/laravel-pdf-reports",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Vasconcelos",
+            "email": "lucasvscn@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.82"
+    },
+    "require-dev": {
+        "gajus/dindent": "^2.0",
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "LucasVscn\\PdfReport\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LucasVscn\\PdfReport\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LucasVscn\\PdfReport\\PdfReportServiceProvider"
+            ]
+        }
+    },
+    "suggest": {
+        "barryvdh/laravel-dompdf": "Easy integration of DOMPdf with Laravel."
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
