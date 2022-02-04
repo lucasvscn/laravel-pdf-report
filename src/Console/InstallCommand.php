@@ -36,6 +36,6 @@ class InstallCommand extends Command
 
     protected function appendToFile($string, $path)
     {
-        file_put_contents($path, $string);
+        file_put_contents($path, $string, FILE_APPEND);
     }
 }
