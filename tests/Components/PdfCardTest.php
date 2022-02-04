@@ -8,11 +8,13 @@ class PdfCardTest extends ComponentTestCase
     {
         $template = <<<'HTML'
             <x-pdf-card>
+                Content goes here
             </x-pdf-card>
             HTML;
 
         $expected = <<<'HTML'
-            <table class="table-card"></table>
+            <table class="table-card"> Content goes here
+            </table>
             HTML;
 
         $this->assertComponentRenders($expected, $template);
