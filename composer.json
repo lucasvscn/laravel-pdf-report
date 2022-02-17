@@ -12,13 +12,13 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.82"
+        "php": "^8.0.2",
+        "illuminate/support": "^9.0"
     },
     "require-dev": {
         "gajus/dindent": "^2.0",
         "phpunit/phpunit": "^9.5",
-        "orchestra/testbench": "^6.24"
+        "orchestra/testbench": "^7.0.2"
     },
     "autoload": {
         "psr-4": {
